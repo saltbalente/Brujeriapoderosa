@@ -196,7 +196,7 @@ class DynamicLandingOptimizer {
         ];
         
         const randomOffer = offers[Math.floor(Math.random() * offers.length)];
-        this.displayDynamicOffer(randomOffer);
+        // this.displayDynamicOffer(randomOffer); // DESHABILITADO - Usuario no quiere banners dinámicos
     }
 
     displayDynamicOffer(offer) {
@@ -1042,7 +1042,7 @@ class DynamicLandingOptimizer {
             price: "Solo $120,000 COP",
             urgency: "Solo para usuarios VIP - Últimas 2 plazas"
         };
-        this.displayDynamicOffer(premiumOffer);
+        // this.displayDynamicOffer(premiumOffer); // DESHABILITADO - Usuario no quiere banners dinámicos
     }
 
     showStandardOffer() {
@@ -1052,7 +1052,7 @@ class DynamicLandingOptimizer {
             price: "Solo $75,000 COP",
             urgency: "Oferta válida por tiempo limitado"
         };
-        this.displayDynamicOffer(standardOffer);
+        // this.displayDynamicOffer(standardOffer); // DESHABILITADO - Usuario no quiere banners dinámicos
     }
 
     // FUNCIONES AUXILIARES
