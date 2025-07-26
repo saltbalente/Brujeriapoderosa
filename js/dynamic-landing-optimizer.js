@@ -510,7 +510,7 @@ class DynamicLandingOptimizer {
             }
             
             // Agregar dimensiones si no están presentes
-            if (!img.width && !img.height) {
+            if (!img.hasAttribute('width') && !img.hasAttribute('height')) {
                 img.style.maxWidth = '100%';
                 img.style.height = 'auto';
             }

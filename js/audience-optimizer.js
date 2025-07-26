@@ -284,9 +284,20 @@ class AudienceOptimizer {
     
     evaluateIntent() {
         const timeOnPage = Date.now() - (window.pageStartTime || Date.now());
-        const scrollDepth = Math.round(
-            (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
-        );
+        let scrollDepth = 0;
+        let ticking = false;
+
+        const updateScrollDepth = () => {
+            scrollDepth = Math.round(
+                (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
+            );
+            ticking = false;
+        };
+
+        if (!ticking) {
+            window.requestAnimationFrame(updateScrollDepth);
+            ticking = true;
+        }
         
         // Evaluar nivel de intención basado en comportamiento
         let intentScore = 0;

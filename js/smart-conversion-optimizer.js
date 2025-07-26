@@ -325,13 +325,21 @@ class SmartConversionOptimizer {
         
         // Mobile exit intent (scroll to top quickly)
         let lastScrollY = window.scrollY;
+        let ticking = false;
+
         window.addEventListener('scroll', () => {
-            if (window.scrollY < lastScrollY - 100 && window.scrollY < 200 && !exitIntentTriggered) {
-                exitIntentTriggered = true;
-                this.userBehavior.intentSignals.push('mobile_exit_intent');
-                this.triggerExitIntentOptimization();
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    if (window.scrollY < lastScrollY - 100 && window.scrollY < 200 && !exitIntentTriggered) {
+                        exitIntentTriggered = true;
+                        this.userBehavior.intentSignals.push('mobile_exit_intent');
+                        this.triggerExitIntentOptimization();
+                    }
+                    lastScrollY = window.scrollY;
+                    ticking = false;
+                });
+                ticking = true;
             }
-            lastScrollY = window.scrollY;
         });
     }
 
