@@ -206,7 +206,7 @@ class BidOptimizer {
         };
         
         // Enlaces rápidos eliminados por solicitud del usuario
-        this.createCalloutsExtension(adExtensions.callouts);
+        // this.createCalloutsExtension(adExtensions.callouts); // DESHABILITADO - Usuario no quiere esta ventana
         // NO mostrar precios especiales - eliminado por solicitud del usuario
         // this.createPriceExtension(adExtensions.price_extensions);
         
