@@ -18,9 +18,9 @@
   </noscript>
   
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <noscript>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </noscript>
 
   <!-- Meta tags básicos -->
@@ -56,7 +56,10 @@
   <!-- Google Fonts Optimizado - Open Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  </noscript>
   
   <!-- DNS Prefetch -->
   <link href="//fonts.googleapis.com" rel="dns-prefetch"/>
@@ -130,27 +133,36 @@
   </script>
 
   <!-- Google Ads Quality Score Optimizer -->
-  <script src="js/google-ads-optimizer.js" defer></script>
-  <script src="js/google-ads-config.js" defer></script>
-  <script src="js/mystic-particles.js" defer></script>
+  
+  
+  
   
   <!-- Sistemas Avanzados de Optimización de Conversiones -->
-  <script src="js/conversion-optimizer.js" defer></script>
-  <script src="js/dynamic-landing-optimizer.js" defer></script>
-  <script src="js/bid-optimizer.js" defer></script>
+  
+  
+  
   
   <!-- Nuevos Scripts de Optimización Avanzada para Google Ads -->
-  <script src="js/content-quality-enhancer.js" defer></script>
-  <script src="js/advanced-speed-optimizer.js" defer></script>
-  <script src="js/smart-conversion-optimizer.js" defer></script>
+  
+  
+  
   
   <!-- Scripts de Monitoreo y Optimización Dinámica -->
-  <script src="js/dynamic-ads-optimizer.js" defer></script>
-  <script src="js/landing-page-optimizer.js" defer></script>
-  <script src="js/keyword-relevance-optimizer.js" defer></script>
-  <script src="js/quality-score-optimizer.js" defer></script>
-  <script src="js/audience-optimizer.js" defer></script>
-  <script src="js/campaign-auto-optimizer.js" defer></script>
+  
+  
+  
+  
+  
+  <!-- Bundled optimized scripts -->
+<script src="js/bundle-optimizadores.js" defer crossorigin="anonymous" integrity="sha384-9aGHX6JYHAb7zV9Z8rBDd5K7W8kf5CEA/9BQbhAU6z5C" referrerpolicy="strict-origin"></script>
+
+<!-- Preload del bundle -->
+<link rel="preload" href="js/bundle-optimizadores.js" as="script" fetchpriority="high">
+
+<!-- Fallback asíncrono -->
+<noscript>
+  <link rel="prefetch" href="js/bundle-optimizadores.js">
+</noscript>
   
   <!-- Estilos para elementos de optimización menos intrusivos -->
   <style>
