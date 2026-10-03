@@ -1020,7 +1020,7 @@ class DynamicAdsOptimizer {
                     <strong>🎁 OFERTA ESPECIAL: 50% de descuento en tu primera consulta</strong>
                 </div>
                 
-                <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.exit-intent-modal').remove();" style="
+                <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.exit-intent-modal').remove();" style="
                     background: #25d366;
                     color: white;
                     border: none;
@@ -1085,7 +1085,7 @@ class DynamicAdsOptimizer {
             <h4 style="margin: 0 0 10px 0;">🎯 Oferta Especial para Ti</h4>
             <p style="margin: 0 0 15px 0; font-size: 14px;">Has demostrado interés genuino. Te ofrezco una consulta personalizada con precio especial.</p>
             
-            <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank')" style="
+            <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank')" style="
                 background: #25d366;
                 color: white;
                 border: none;
@@ -1142,7 +1142,7 @@ class DynamicAdsOptimizer {
                 • Respuestas específicas a tus preguntas
             </div>
             
-            <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.remove();" style="
+            <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.remove();" style="
                 background: #25d366;
                 color: white;
                 border: none;
@@ -1232,7 +1232,7 @@ class DynamicAdsOptimizer {
                     <strong>¿Listo para tu consulta?</strong><br>
                     <small>Has visto todo lo que necesitas saber</small>
                 </div>
-                <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank')" style="
+                <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank')" style="
                     background: #25d366;
                     color: white;
                     border: none;
@@ -1292,7 +1292,7 @@ class DynamicAdsOptimizer {
         
         prompt.innerHTML = `
             <p style="margin: 0 0 10px 0; font-size: 14px;">¿Tienes alguna pregunta específica? Estoy aquí para ayudarte.</p>
-            <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
+            <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
                 background: #25d366;
                 color: white;
                 border: none;
@@ -1573,7 +1573,7 @@ class DynamicAdsOptimizer {
         
         helpOffer.innerHTML = `
             <p style="margin: 0 0 10px 0; font-size: 14px;">¿Necesitas ayuda para encontrar lo que buscas?</p>
-            <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
+            <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
                 background: white;
                 color: #ff6b6b;
                 border: none;

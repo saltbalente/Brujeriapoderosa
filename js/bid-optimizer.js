@@ -186,7 +186,7 @@ class BidOptimizer {
                 { text: "Consulta Gratuita", url: "#consulta-gratuita" },
                 { text: "Testimonios", url: "#testimonios" },
                 { text: "Precios", url: "#precios" },
-                { text: "Contacto 24/7", url: "https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis" }
+                { text: "Contacto 24/7", url: "https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis" }
             ],
             callouts: [
                 "✅ Resultados Garantizados",
@@ -553,7 +553,7 @@ class BidOptimizer {
         urgentBtn.addEventListener('click', () => {
             this.reportEvent('urgent_cta_click', { cta_type: 'floating_urgent' });
             // Simular conversión
-            window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank');
+            window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank');
         });
         
         this.reportEvent('urgent_cta_added');

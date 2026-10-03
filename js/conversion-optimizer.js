@@ -371,7 +371,7 @@ class ConversionOptimizer {
             <div class="personalized-content">
                 <h2 class="personalized-headline">${message.headline}</h2>
                 <p class="personalized-offer">${message.offer}</p>
-                <button class="personalized-cta" onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.personalized-banner').style.display='none';">
+                <button class="personalized-cta" onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.personalized-banner').style.display='none';">
                     ${message.cta}
                 </button>
             </div>
@@ -975,7 +975,7 @@ class ConversionOptimizer {
         });
         
         // Redirigir a WhatsApp o formulario
-        window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank');
+        window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank');
     }
 
     trackPopupInteraction(popup, type) {

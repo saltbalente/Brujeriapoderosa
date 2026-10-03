@@ -631,7 +631,7 @@ class ContentQualityEnhancer {
                 <p style="margin: 0 0 15px 0; font-size: 14px;">
                     Por tu interés demostrado: <strong>20% de descuento</strong> en tu primera consulta
                 </p>
-                <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.parentElement.remove();" style="
+                <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.parentElement.remove();" style="
                     background: #ffd700;
                     color: #722f37;
                     border: none;

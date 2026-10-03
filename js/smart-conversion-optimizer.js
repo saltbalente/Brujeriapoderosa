@@ -502,7 +502,7 @@ class SmartConversionOptimizer {
         advantageContainer.innerHTML = `
             <div style="font-weight: bold; margin-bottom: 10px;">¿Por qué elegirnos?</div>
             ${advantages.map(adv => `<div style="margin: 5px 0;">${adv}</div>`).join('')}
-            <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
+            <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
                 position: absolute;
                 top: 5px;
                 right: 5px;
@@ -803,7 +803,7 @@ class SmartConversionOptimizer {
             <div style="margin-bottom: 15px;">
                 Primera consulta completamente GRATIS
             </div>
-            <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
+            <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
                 background: white;
                 color: #ee5a24;
                 border: none;
@@ -1066,7 +1066,7 @@ class SmartConversionOptimizer {
                 <p style="margin-bottom: 20px;">
                     Obtén respuestas a tus preguntas más importantes
                 </p>
-                <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.exit-intent-modal').remove();" style="
+                <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.exit-intent-modal').remove();" style="
                     background:rgb(81, 3, 3);
                     color: white;
                     border: none;

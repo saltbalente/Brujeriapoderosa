@@ -211,7 +211,7 @@ class DynamicLandingOptimizer {
                     <p>${offer.description}</p>
                     <div class="offer-price">Consulta Gratis $0</div>
                     <div class="offer-urgency">${offer.urgency}</div>
-                    <button class="offer-cta" onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank')">Aprovechar Oferta</button>
+                    <button class="offer-cta" onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank')">Aprovechar Oferta</button>
                 </div>
             `;
             

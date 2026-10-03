@@ -461,7 +461,7 @@ class QualityScoreOptimizer {
             ">
                 <h3 style="color: #2c3e50; margin-bottom: 20px;">¿Necesitas ayuda?</h3>
                 <p style="margin-bottom: 25px;">Nuestros expertos están disponibles para guiarte en tu consulta espiritual.</p>
-                <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.help-modal').remove();" style="
+                <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.help-modal').remove();" style="
                     background: linear-gradient(45deg, #667eea, #764ba2);
                     color: white;
                     border: none;

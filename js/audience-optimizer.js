@@ -716,7 +716,7 @@ class AudienceOptimizer {
                 <p style="margin-bottom: 25px; color: #666;">
                     Obtén tu primera consulta con <strong>50% de descuento</strong>
                 </p>
-                <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.exit-intent-modal').remove();" style="
+                <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.closest('.exit-intent-modal').remove();" style="
                     background: linear-gradient(45deg, #e74c3c, #c0392b);
                     color: white;
                     border: none;
@@ -835,7 +835,7 @@ class AudienceOptimizer {
             banner.innerHTML = `
                 <div style="font-weight: bold; margin-bottom: 5px;">🎯 ¡Momento perfecto!</div>
                 <div style="font-size: 14px; margin-bottom: 10px;">Tu vida cambiará con esta consulta</div>
-                <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
+                <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
                     background: white;
                     color: #27ae60;
                     border: none;
@@ -870,7 +870,7 @@ class AudienceOptimizer {
             booster.innerHTML = `
                 <div style="font-weight: bold; margin-bottom: 5px;">💡 ¿Necesitas ayuda?</div>
                 <div style="font-size: 13px; margin-bottom: 10px;">Obtén respuestas personalizadas</div>
-                <button onclick="window.open('https://wa.me/+12545956299?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
+                <button onclick="window.open('https://wa.me/+19162347420?text=ayuda%20con%20el%20maestro%20en%20consulta%20gratis', '_blank'); this.parentElement.remove();" style="
                     background: white;
                     color: #3498db;
                     border: none;
